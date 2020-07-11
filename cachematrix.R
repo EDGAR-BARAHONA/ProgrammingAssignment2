@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## WEsta funcion crea un elemento "makecachematrix", el cual devuelve un elemento que dispone de funciones
 
 makecachematrix <- function(x = matrix()) {
   inv <- NULL
@@ -17,8 +17,8 @@ makecachematrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-
-## Write a short comment describing this function
+## Esta funcion recibe un elemento ripo "makecachematrix" y retorna su valor inverso
+## de igual manera cuenta con las funciones que le permiten obtener y definir las entradas a la funcion
 
 cachesolve <- function(x, ...) {
   inv <- x$getinv()
